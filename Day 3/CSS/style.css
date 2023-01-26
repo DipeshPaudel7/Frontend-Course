@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+}
+
+.head{
+    text-align: center;
+}
+
+.span-class{
+    background-color: #a83256;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.my-head1{
+    width: 30%;
+    float: right;
+    background-color: red;
+    color: purple;
+    margin: 10px;
+    padding: 12px;
+}
+
+.my-head2{
+    width: 30%;
+    float: right;
+    background-color: orange;
+    color: white;
+    margin: 10px;
+    padding: 12px;
+}
+
+.my-head3{
+    width: 30%;
+    float: right;
+    background-color: green;
+    color: black;
+    margin: 10px;
+    padding: 12px;
+}
