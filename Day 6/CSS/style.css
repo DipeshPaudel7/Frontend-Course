@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: Lato, sans-serif;
+    text-align: center;
+}
+
+.span-text{
+    color: blue;
+}
+
+.p-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pricing-div{
+    width: 24%;
+    float: left;
+    background-color: rgb(212, 212, 212);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 40px 0;
+}
+
+.pricing-div a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(135, 139, 139);
+    padding: 8px 10px;
+}
