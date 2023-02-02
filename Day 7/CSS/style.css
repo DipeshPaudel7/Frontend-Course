@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+}
+
+.main-text{
+    margin: 100px 0 50px 120px;
+}
+
+.first-text{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(21, 21, 131);
+    margin-right: 40px;
+}
+
+.second-text{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(83, 83, 235);
+}
+
+.div-container{
+    text-align: center;
+    margin: 0 35px;
+}
+
+.outer-div{
+    width: 33.33%;
+    float: left;
+}
+
+.inner-div{
+    margin: 0px 50px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+    overflow: hidden;
+    border: 2px solid rgb(83, 83, 235);
+    box-shadow: 0 20px 5px rgb(158, 158, 250);
+}
+
+.upper-div{
+    background-color: rgb(21, 21, 131);
+    padding: 12px 0;
+}
+
+.upper-div h2{
+    color: white;
+}
