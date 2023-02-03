@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.blog-div {
+    font-family: sans-serif;
+    background-color: gold;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.blog-div h2 {
+    font-size: 40px;
+}
+
+.blog-div p {
+    color: gray;
+    font-weight: bold;
+}
+
+.blog-container {
+    background-color: purple;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.blog-outer {
+    background-color: black;
+    width: 33.33%;
+    float: left;
+}
+
+.blog-inner {
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+}
+
+.blog-inner img {
+    width: 100%;
+}
+
+.blog-inner h3 {
+    color: orange;
+}

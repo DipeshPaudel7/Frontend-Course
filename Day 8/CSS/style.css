@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.img-outer {
+    width: 25%;
+    float: left;
+}
+
+.img-inner {
+   margin: 15px;
+}
+
+.img-inner img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
