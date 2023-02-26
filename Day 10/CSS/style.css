@@ -1,0 +1,26 @@
+.nav-bar {
+    background-color: blue;
+    padding: 20px;
+    text-align: right;
+    font-family: cursive;
+}
+
+.nav-bar:hover {
+    background-color: red;
+}
+
+.nav-bar li {
+    display: inline;
+    margin: 10px;
+    /* list-style-type: none; */
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar a:hover {
+    color: orange;
+    background-color: black;
+}
