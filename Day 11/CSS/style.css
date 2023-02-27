@@ -38,7 +38,7 @@
 
 /* @media only screen and ..... was used in ancient time use it if browser won't work. */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) {
     .outer-div {
         width: 25%;
     }
