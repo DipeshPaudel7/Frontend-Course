@@ -1,0 +1,79 @@
+.main-div {
+    background: linear-gradient(to right, orange, green);
+    overflow: hidden;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    padding: 50px 0;
+}
+
+.div-container {
+    margin: 5px 10px;
+    overflow: hidden;
+}
+
+.outer-div {
+    float: left;
+    width: 100%;
+}
+
+.inner-div {
+    margin: 10px;
+    background-color: rgba(0, 0, 255, 0.8);
+    overflow: hidden;
+}
+
+.inner-div hr {
+    width: 40%;
+    height: 4px;
+    border: none;
+}
+
+.lower-div {
+    background-color: red;
+    margin: 4px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.btn a {
+    text-decoration: none;
+    background-color: white;
+    color: green;
+    padding: 5px 8px;
+    border-radius: 12px;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-gold {
+    background-color: gold;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+@media (min-width: 480px) {
+    .outer-div {
+        width: 50%;
+    }
+    .div-container {
+        margin: 10px 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .outer-div {
+        width: 25%;
+    }
+    .div-container {
+        margin: 20px 80px;
+    }
+}
