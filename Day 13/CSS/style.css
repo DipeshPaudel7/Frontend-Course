@@ -1,0 +1,53 @@
+body {
+    background-color: aliceblue;
+}
+
+form {
+    margin-top: 120px;
+}
+
+.form-div {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    box-shadow: 2px 3px 8px gray;
+    overflow: hidden;
+}
+
+.form-div h2 {
+    margin-top: 100px;
+}
+
+.form-div input {
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: greenyellow;
+}
+
+.form-div input:focus {
+    outline: 1px solid salmon;
+}
+
+.username {
+    margin-bottom: 10px;
+}
+
+.password {
+    margin-bottom: 10px;
+}
+
+.btn button {
+    background-color: red;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn button:hover {
+    background-color: orange;
+}
